@@ -1,0 +1,18 @@
+
+ 
+记录时间：2016-12-29 22:37:34,288 
+线程ID:[18608] 
+日志级别：  ERROR 
+出错类：logerror property: [(null)] - 
+错误描述：Area
+ 
+System.AggregateException: 发生一个或多个错误。 ---> System.InvalidCastException: 无法将类型为“Newtonsoft.Json.Linq.JValue”的对象强制转换为类型“Newtonsoft.Json.Linq.JObject”。
+   在 System.Net.Http.HttpContentExtensions.<ReadAsAsyncCore>d__0`1.MoveNext()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 DaiWan.Tentacle.Util.CallRemoteAPI_Post(String TOKEN, String url, JObject postdata) 位置 D:\MyProjects\DaiWan\DaiWan.Tentacle\Util.cs:行号 114
+---> (内部异常 #0) System.InvalidCastException: 无法将类型为“Newtonsoft.Json.Linq.JValue”的对象强制转换为类型“Newtonsoft.Json.Linq.JObject”。
+   在 System.Net.Http.HttpContentExtensions.<ReadAsAsyncCore>d__0`1.MoveNext()<---
+
