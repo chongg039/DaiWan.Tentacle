@@ -7,5 +7,4 @@
 http://www.games-cube.com
 带玩平台关注基于游戏、电竞、网咖、战队领域的大数据分析方案
 We focus on the game, gaming, internet cafes big data analysis.
-
 技术合作请访问官方网站，联系我们。
